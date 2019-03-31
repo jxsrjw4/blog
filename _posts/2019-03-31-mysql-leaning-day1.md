@@ -30,7 +30,7 @@ categories: DataWhale/Mysql
 <h1>常用命令</h1>
 1、查看mysql状态 `status`
     ![](/static/img/20190331/04.png)
-2、创建DB `create database datawhale;`
+2.创建DB `create database datawhale;`
 
 3.使用DB `user datawhale;`
 
@@ -47,6 +47,7 @@ categories: DataWhale/Mysql
 <h2>项目一：查找重复的电子邮箱</h2>
     使用group by语句
     `select email from email group by email having count(1)>1;`
+    
 ![](/static/img/20190331/09.png)
 <h2>项目二：查找大国</h2>
     `select name,population,area
