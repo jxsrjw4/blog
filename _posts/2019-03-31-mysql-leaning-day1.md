@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mysql打卡第一天
-date:   
+date: 2019-03-31 18:00:00  
 categories: DataWhale/Mysql
 ---
 

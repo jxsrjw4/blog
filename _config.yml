@@ -2,7 +2,7 @@ title: wen.jiang
 description: 个人博客
 author: wen.jiang
 logo: /hcz-jekyllblog-/static/img/avatar.png
-github: https://github.com/codeasashu
+github: https://github.com/jxsrjw4
 about: Freelance developer
 
 baseurl: ""
@@ -24,5 +24,5 @@ tagarray: []
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
-markdown: kramdown
+markdown: markdown
 gems: [jekyll-paginate, jekyll-gist]
