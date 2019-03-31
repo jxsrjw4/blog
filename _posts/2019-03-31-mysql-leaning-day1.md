@@ -2,7 +2,7 @@
 layout: post
 title: Mysql打卡第一天
 date: 2019-03-31 18:00:00  
-categories: DataWhale
+categories: DataWhale/Mysql
 ---
 
 <h1>MySQL环境配置</h1>
@@ -47,11 +47,12 @@ categories: DataWhale
 <h2>项目一：查找重复的电子邮箱</h2>
     使用group by语句
     `select email from email group by email having count(1)>1;`
-![](../static/img/20190331/09.png)
+![](/static/img/20190331/09.png)
 <h2>项目二：查找大国</h2>
     `select name,population,area
     from World
     where area>3000000 or (population>25000000 and gdp>20000000)`
+
 ![](/static/img/20190331/10.png)
 
 <h1>总结</h1>
