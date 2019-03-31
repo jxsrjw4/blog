@@ -2,8 +2,8 @@
 layout: post
 title: Mysql打卡第一天
 date: '2019-03-31T19:00:00.000Z'
-categories: DataWhale/Mysql
-tags: ''
+categories: 'DataWhale,Mysql'
+tags: 'DataWhale,Mysql'
 ---
 #MySQL环境配置
 	win10系统安装虽然自带了Hyper-V虚拟机，但是会与VmWare WorkStation Pro冲突
