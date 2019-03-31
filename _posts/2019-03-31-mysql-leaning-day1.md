@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Mysql打卡第一天
-date:   2019-03-31 19:00:00
+date: '2019-03-31T19:00:00.000Z'
 categories: DataWhale/Mysql
+tags: ''
 ---
-
 #MySQL环境配置
 	win10系统安装虽然自带了Hyper-V虚拟机，但是会与VmWare WorkStation Pro冲突
 	想用docker安装Mysql却不想再创建个虚拟机，只能解决冲突了。
@@ -16,21 +16,21 @@ categories: DataWhale/Mysql
     (吐槽下)确实比较慢
 
 2.查看镜像 `docker images`
-![](../static/img/20190331/01.png)
+![](/static/img/20190331/01.png)
 
 3.创建Mysql容器 `docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 -d mysql`
-![](../static/img/20190331/02.png)
+![](/static/img/20190331/02.png)
 
 ##Mysql连接
 1.命令行方式 `docker exec -it mysql bash`
 
 2.Navicat连接Native连接报错，提示1251，原因：Mysql版本太新(8.0),
-![](../static/img/20190331/03.png)
+![](/static/img/20190331/03.png)
 
 
 #常用命令
 1、查看mysql状态 `status`
-    ![](../static/img/20190331/04.png)
+    ![](/static/img/20190331/04.png)
 2、创建DB `create database datawhale;`
 
 3.使用DB `user datawhale;`
