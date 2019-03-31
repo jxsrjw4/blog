@@ -2,7 +2,7 @@
 layout: post
 title: Mysql打卡第一天
 date: 2019-03-31 18:00:00  
-categories: DataWhale/Mysql
+categories: DataWhale
 ---
 
 #MySQL环境配置
